@@ -116,6 +116,9 @@ $(call inherit-product, $(LOCAL_PATH)/android/permissions/common_feature_permiss
 # Power
 $(call inherit-product, $(LOCAL_PATH)/platform/power.mk)
 
+# Protobuf
+$(call inherit-product, $(LOCAL_PATH)/platform/protobuf.mk)
+
 # QCOM
 $(call inherit-product, $(LOCAL_PATH)/platform/qcom.mk)
 
