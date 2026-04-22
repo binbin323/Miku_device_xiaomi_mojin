@@ -68,6 +68,10 @@ blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libwfdservice.so': blob_fixup()
         .add_needed('libaudioclient_shim.so')
         .replace_needed(
+            'android.media.audio.common.types-V1-cpp.so',
+            'android.media.audio.common.types-V4-cpp.so',
+        )
+        .replace_needed(
             'android.media.audio.common.types-V2-cpp.so',
             'android.media.audio.common.types-V4-cpp.so',
         )
