@@ -51,13 +51,13 @@ vendor/firmware/aw882xx_spk_reg_l.bin|8aba1ead5587badbb375d74dd57db6905dd4d8c3
 vendor/firmware/aw882xx_spk_reg_r.bin|f715ed112943e17cf7e9b5b6c57bdc7a77222910
 
 # Audio HAL - from ZIJIN_V14.0.5.0.TLPCNXM
-vendor/lib/hw/audio.primary.lahaina.so|6e93cf666ffb9cc699e193a29795566200a214ab
+vendor/lib/hw/audio.primary.lahaina.so|6e93cf666ffb9cc699e193a29795566200a214ab|df367798f82d76b2bf1fdc4ec8b9510fe9c8dade
 vendor/lib/liba2dpoffload.so|7f585cbfae36207f0c1d052a8540cb0fd48a0fad
 vendor/lib/libadm.so|ceb6b3d0ba0d41bb5d923fc4ff4699fdf9b0003f
 vendor/lib/libaudio_log_utils.so|f2fb5deb9cc93993983ef84d46bc8ccf0a275c45
 vendor/lib/libaudioconfigstore.so|1b53f032ae43dd335ada7755642cb62864890165
 vendor/lib/libaudioparsers.so|7569d3f969fe586145970f30c90d395074f577e4
-vendor/lib/libaudioroute_ext.so|429fcd85cde180d47dafd8c516879bd81e7ff067
+vendor/lib/libaudioroute_ext.so|429fcd85cde180d47dafd8c516879bd81e7ff067|71af2362da3c7b94ccbb3e9a99be4db94d24a5cf
 vendor/lib/libbatterylistener.so|0e74912d081b14bc096ded90dd5f69503f1900e1
 vendor/lib/libcomprcapture.so|f75480e0fa416ced98ef93fd66b3bd32395b8f3e
 vendor/lib/libexthwplugin.so|924ebaed39d7577fc1f28e413df2c8b87b6b00eb
@@ -115,7 +115,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # CAcert
--vendor/app/CACertService/CACertService.apk
+vendor/app/CACertService/CACertService.apk
 vendor/lib64/libcacertclient.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
@@ -136,7 +136,7 @@ vendor/bin/init.qti.chg_policy.sh
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
 # CNE
--vendor/app/CneApp/CneApp.apk
+vendor/app/CneApp/CneApp.apk
 vendor/bin/cnd
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
@@ -483,16 +483,16 @@ vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 
 # Hotword Enrollment - from Nothing Phone (1) A063_2.5.3
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|3b645024a832587473af1a758d5cf86470b3a030
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|3441668e28368b9f86e7edc78c70fe042d686f6b
--system_ext/framework/com.android.hotwordenrollment.common.util.jar|e324dc627177f92a4f289e302bbbea581720cbde
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|3b645024a832587473af1a758d5cf86470b3a030
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|3441668e28368b9f86e7edc78c70fe042d686f6b
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|e324dc627177f92a4f289e302bbbea581720cbde
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|99cfd80965c170f4885a7dd62c0eaad1a0c7840f
 
 # IFAA
--vendor/app/IFAAService/IFAAService.apk
+vendor/app/IFAAService/IFAAService.apk
 
 # IMS - from Nothing Phone (1) A063_2.5.3
--system_ext/priv-app/ims/ims.apk|a0fc363bc39bf35bcd56b172a84e2e5906107c73
+system_ext/priv-app/ims/ims.apk|a0fc363bc39bf35bcd56b172a84e2e5906107c73
 system_ext/lib64/lib-imsvideocodec.so|6ec9384e526c4784af05223c35b4326e7b9c5c10
 system_ext/lib64/lib-imsvt.so|0517dff9db29cbf4a2a62706e1ce3b322cf1d681
 system_ext/lib64/lib-imsvtextutils.so|19b0a5b9119388e735729e9a86ee7ee0a1355077
@@ -620,7 +620,7 @@ vendor/lib64/libqcodec2_v4l2codec.so
 vendor/lib64/libvideooptfeature.so
 
 # Media Profiles
--vendor/etc/vintf/manifest/c2_manifest_vendor.xml
+vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/init.qti.media.rc
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
@@ -743,7 +743,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Power-off alarm
--system_ext/app/PowerOffAlarm/PowerOffAlarm.apk
+system_ext/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -804,7 +804,7 @@ system_ext/etc/permissions/qti_permissions.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
 
 # RIL
--vendor/app/IWlanService/IWlanService.apk
+vendor/app/IWlanService/IWlanService.apk
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 system_ext/app/QtiTelephony/QtiTelephony.apk
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
@@ -1088,8 +1088,8 @@ vendor/etc/wifi/aoa_cldb_swl14.bin
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 
 # WiFi Display
--system/framework/WfdCommon.jar
--system_ext/priv-app/WfdService/WfdService.apk
+system/framework/WfdCommon.jar
+system_ext/priv-app/WfdService/WfdService.apk
 system_ext/bin/wfdservice64
 system_ext/etc/init/wfdservice.rc
 system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml
