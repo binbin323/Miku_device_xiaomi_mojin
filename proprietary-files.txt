@@ -270,7 +270,7 @@ vendor/etc/snapdragon_color_libs_config.xml|20be96679760b14cd63577a17f4a040e5432
 vendor/lib64/libdisplayqos.so|aa222f4c1a2d2fb60944c44f8a82621d6bc75184
 vendor/lib64/libdisplayskuutils.so|77a89896ee24fcf26ac2fadbf901d45c668e704e
 vendor/lib64/libdpp_manager.so|a15d7dba507e579b7a6f2a0dfbc1816f9da3cf76
-vendor/lib64/libdpps.so|294b81c975f631dd71cfcfb663d9d8af66704803
+vendor/lib64/libdpps.so|294b81c975f631dd71cfcfb663d9d8af66704803|f67addca67c3e65a230c3fa7bb9dfa0ca20930b5
 vendor/lib64/libqrtrclient.so|2474a708487c269c04afffbf755fff1686c6011c
 vendor/lib64/libqseed3.so|d62c37baf259250cadfcff8734e82054ed87bb96
 vendor/lib64/librcmask.so|8feb479fe590b6aec282ce3342574d9113f80516
@@ -295,7 +295,7 @@ vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/lib64/libdisp-aba.so|3ff1c1d30d96c3ce3608378b2afcc75b892845cb
 vendor/lib64/libqdcm-mode-parser.so|207143ab4dda0886bde2a0333d7a1bcd7af6f8e1
-vendor/lib64/libsnapdragoncolor-manager.so|e7f55a1ba843bb570afa6bbf16bb61dc01ec74ea
+vendor/lib64/libsnapdragoncolor-manager.so|e7f55a1ba843bb570afa6bbf16bb61dc01ec74ea|75e45e5e855172836130a0d65c4ff321388f558a
 vendor/lib64/libsnapdragoncolor-qdcm.so|673c41753603bacb197674df567723dfd928384e
 vendor/lib64/vendor.display.color@1.0.so|76e84677fefbe97a0c9d33646fca2834e77a3b6f
 vendor/lib64/vendor.display.color@1.1.so|3aa79bbf7592472d87c29f91a106141eff8a9a74
