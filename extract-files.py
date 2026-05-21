@@ -92,7 +92,8 @@ blob_fixups: blob_fixups_user_type = {
             r'\g<1>0',
         ),
     'vendor/etc/vintf/manifest/c2_manifest_vendor.xml': blob_fixup()
-        .regex_replace(r'^.*(?:ozoaudio|dolby).*(?:\n|$)', ''),
+        .regex_replace('.+ozoaudio.+\n', '')
+        .regex_replace('.+dolby.+\n', ''),
     ('vendor/lib/hw/audio.primary.lahaina.so', 'vendor/lib/libaudioroute_ext.so'): blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
